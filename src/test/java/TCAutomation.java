@@ -27,8 +27,13 @@ public class TCAutomation {
         webDriver.findElement(By.xpath("//input[@placeholder='name@example.com']")).sendKeys("nhungtran410@gmail.com");
         Thread.sleep(3000);
 
+        //Input "Email = nhungtran410@gmail.com"
+        webDriver.findElement(By.xpath("//input[@placeholder='name@example.com']")).sendKeys("nhungtran410@gmail.com");
+        Thread.sleep(3000);
 
-        //Note This is test testcase
+
+        //Note This is test testcase 11/23/2020
+
 
         //Input "Mobile = 0978690028"
         //webDriver.findElement(By.xpath("//input[@id='userNumber']")).sendKeys("0978690028");
